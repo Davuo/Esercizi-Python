@@ -7,7 +7,7 @@ lblbiglietto=tk.Label(text="Costo del biglietto",
 
 txtbiglietto=tk.Entry(fg="yellow",bg="blue",width=50).pack()
 
-lbleta=tk.Label(text=Età,
+lbleta=tk.Label(text="Età",
         fg="white",
         bg="red").pack()
 
