@@ -18,3 +18,4 @@ btncalcolo=tk.Button(text="Calcola",
             bg="red",
             height=10,
             width=30).pack()
+window.mainloop()
