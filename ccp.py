@@ -36,18 +36,15 @@ else:
     c3=10
 cc=nb*pb
 if e1>=18:
-    cp1=c1+100
-else:
-    cp1=c1
+    c1=c1+100
+
 if e2>=18:
-    cp2=c2+100
-else:
-    cp2=c2
+    c2=c2+100
+
 if e3>=18:
-    cp3=c3+100
-else:
-    cp3=c3
-cp=cp1+cp2+cp3
+    c3=c3+100
+
+cp=c1+c2+c3
 B=input("É richiesto il babysitting? S/N ")
 if B=="S":
     cp=cp+20
