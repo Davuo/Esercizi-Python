@@ -1,8 +1,8 @@
 tot_s=float(input("Inserisci il totale speso "))
 if tot_s>300:
-    d=tot_s-300
-    vs2=d*20/100
-    i1=d-vs2
+    i1=tot_s-300
+    vs2=i1*20/100
+    i1=i1-vs2
     vs=30
     i=270
 else:
